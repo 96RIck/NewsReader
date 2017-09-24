@@ -1,4 +1,4 @@
-//
+ //
 //  Article.swift
 //  NewsReader
 //
@@ -8,6 +8,16 @@
 
 import UIKit
 
-class Article: NSObject {
+class Newslist: NSObject {
 
+    var headLine : String?
+    var desc :  String?
+    var author : String?
+    var url : String?
+    var imageUrl : String?
+    
+    
+    
+    
+    
 }

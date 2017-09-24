@@ -10,10 +10,17 @@ import UIKit
 
 class webViewContrller: UIViewController {
 
+    @IBOutlet weak var webView: UIWebView!
+    
+    var url : String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+         webView.loadRequest(URLRequest(url: URL(string: url!)!)) 
+        
     }
 
     override func didReceiveMemoryWarning() {
